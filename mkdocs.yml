@@ -10,9 +10,9 @@ nav:
   - Introduction: 'index.md'
   - Setup: 'setup.md'
   - Prepare Knowledge Store for RAG Model:
-      - 1 - Overview & Architecture: ''
-      - 2 - Prerequisites: ''
-      - 3 - Launching environment: ''
+      - 1 - Overview & Architecture: 'RAG/overview/exercise.md'
+      - 2 - Prerequisites: 'RAG/enviornment/exercise.md'
+      - 3 - Launching environment: 'RAG/prerequisites/exercise.md'
   
   - Prepare Data Store/ Knowledge Store: 
     - Batch Ingestion/Processing & Data Quality:
