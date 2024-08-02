@@ -42,4 +42,4 @@ markdown_extensions:
     - admonition
     - codehilite
     - attr_list
-    - md_in_html-
+    - md_in_html
