@@ -10,15 +10,9 @@ nav:
   - Introduction: 'index.md'
   - Setup: 'setup.md'
   - Prepare Knowledge Store for RAG Model:
-<<<<<<< HEAD
       - 1 - Overview & Architecture: 'preparerag/overview.md'
       - 2 - Prerequisites: ''
       - 3 - Launching environment: ''
-=======
-      - 1 - Overview & Architecture: 'RAG/overview/exercise.md'
-      - 2 - Prerequisites: 'RAG/enviornment/exercise.md'
-      - 3 - Launching environment: 'RAG/prerequisites/exercise.md'
->>>>>>> 3d6625345a32385fca233af8f0fa2b9d7970176e
   
   - Prepare Data Store/ Knowledge Store: 
     - Batch Ingestion/Processing & Data Quality:
@@ -28,9 +22,11 @@ nav:
       - 4 - Data Cataloguing: ''
 
     - Stream Processing:
-      - 1 - Overview: ''
+      - 1 - Overview: 'streamprocess/overview.md'
       - 2 - Setup: ''
-      - 3 - Run: ''  
+      - 3 - Create a Kinesis Data Stream: 'streamprocess/kds.md' 
+      - 4 - Write Data to a Kinesis Data Stream using Amazon Managed Service for Apache Flink Studio Notebook: 'streamprocess/write_data_to_kds.md'
+      - 5 - Run: ''  
 
   - Prompt Engineering: 
       - 1 - Introduction: ''
@@ -46,4 +42,4 @@ markdown_extensions:
     - admonition
     - codehilite
     - attr_list
-    - md_in_html
+    - md_in_html-
