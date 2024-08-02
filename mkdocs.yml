@@ -10,7 +10,7 @@ nav:
   - Introduction: 'index.md'
   - Setup: 'setup.md'
   - Prepare Knowledge Store for RAG Model:
-      - 1 - Overview & Architecture: ''
+      - 1 - Overview & Architecture: 'preparerag/overview.md'
       - 2 - Prerequisites: ''
       - 3 - Launching environment: ''
   
