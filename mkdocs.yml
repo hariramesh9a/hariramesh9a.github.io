@@ -9,9 +9,10 @@ theme:
 nav:
   - Introduction: 'index.md'
   - Setup: 'Setup/overview/exercise.md'
-  - Prepare Knowledge base for RAG Model:
-      - 1 - Overview & Architecture: 'preparerag/overview.md'
-      - 2 - Knowledge Base for RAG: 'preparerag/kbase.md'
+  - Data Foundation for RAG Pipeline:
+      - 1 - Overview: 'preparerag/overview.md'
+      - 2 - What is RAG? : 'preparerag/rag.md'
+      - 3 - Knowledge Base for RAG: 'preparerag/kbase.md'
       - Batch Ingestion/Processing & Data Quality:
         - 1 - Overview: ''
         - 2 - Setup: ''
@@ -23,6 +24,9 @@ nav:
         - 3 - Create a Kinesis Data Stream: 'streamprocess/kds.md' 
         - 4 - Write Data to a Kinesis Data Stream using Amazon Managed Service for Apache Flink Studio Notebook: 'streamprocess/write_data_to_kds.md'
         - 5 - Run: ''  
+      - 4 - Data Governance:
+        -  Overview: 'governance/overview.md' 
+
 
   - Prompt Engineering: 
       - 1 - Introduction: ''
