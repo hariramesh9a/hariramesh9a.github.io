@@ -1,7 +1,6 @@
 site_name: DataFoundation - Train the Trainer Workshop (L400)
 repo_name: "hariramesh9a/datafoundations"
 repo_url: "https://github.com/hariramesh9a/datafoundations"
-site_url: "https://hariramesh9a.github.io/datafoundations"
 docs_dir: "docs"
 theme:
   name: material

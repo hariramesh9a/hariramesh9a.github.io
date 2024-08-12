@@ -944,10 +944,10 @@
 <p>The following diagrams illustrate schematically how RAG is carried out. Knowledge base simplifies the setup and implementation of RAG by automating several steps in this process.</p>
 <h2 id="pre-processing-data">Pre-processing data<a class="headerlink" href="#pre-processing-data" title="Permanent link">&para;</a></h2>
 <p>To enable effective retrieval from private data, a common practice is to first split the documents into manageable chunks for efficient retrieval. The chunks are then converted to embeddings and written to a vector index, while maintaining a mapping to the original document. These embeddings are used to determine semantic similarity between queries and text from the data sources. The following image illustrates pre-processing of data for the vector database.</p>
-<p><img alt="Alt" src="/assets/images/streamprocess/rag-preprocess.png" title="Preprocessing" /></p>
+<p><img alt="Alt" src="../../assets/images/streamprocess/rag-preprocess.png" title="Preprocessing" /></p>
 <h2 id="runtime-execution">Runtime execution<a class="headerlink" href="#runtime-execution" title="Permanent link">&para;</a></h2>
 <p>At runtime, an embedding model is used to convert the user's query to a vector. The vector index is then queried to find chunks that are semantically similar to the user's query by comparing document vectors to the user query vector. In the final step, the user prompt is augmented with the additional context from the chunks that are retrieved from the vector index. The prompt alongside the additional context is then sent to the model to generate a response for the user. The following image illustrates how RAG operates at runtime to augment responses to user queries.</p>
-<p><img alt="Alt" src="/assets/images/streamprocess/rag-runtime.png" title="RAG runtime" /></p>
+<p><img alt="Alt" src="../../assets/images/streamprocess/rag-runtime.png" title="RAG runtime" /></p>
 
 
 
