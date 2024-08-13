@@ -1,5 +1,7 @@
 # Data Foundations
-![Alt](assets/images/streamprocess/df2.png "core components")
+
+
+![Alt](/assets/images/streamprocess/df2.png "core components")
 
 These are the core elements of a modern, robust data foundation.
 
@@ -13,7 +15,7 @@ These are the core elements of a modern, robust data foundation.
 
 ## Data Foundation for GenAI - High level architecture
 
-![Alt](assets/images/streamprocess/df1.png "Data Foundation Architecture")
+![Alt](/assets/images/streamprocess/df1.png "Data Foundation Architecture")
 
 
 One of the very first things that gen AI introduces to the pipeline is the need for additional data sources. And these are primarily in the form of unstructured data. Now, unstructured data is not a new construct to the data world, however it is now the dominant part of the data feed for a gen AI pipeline. 
