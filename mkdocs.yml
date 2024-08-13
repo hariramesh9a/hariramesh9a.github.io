@@ -8,7 +8,7 @@ theme:
     - tabs
 nav:
   - Introduction: 'index.md'
-  - Setup: 'Setup/overview/exercise.md'
+  - Setup: 'cfn_setup/overview/exercise.md'
   - Data Foundation for RAG Pipeline:
       - 1 - Overview: 'preparerag/overview.md'
       - 2 - What is RAG? : 'preparerag/rag.md'
@@ -36,7 +36,13 @@ nav:
   - Building/ Finetuning LLM: 
       - 1 - Introduction: ''
       - 2 - Setup DWH: ''
-      
+
+validation:
+  links:
+    absolute_links: relative_to_docs
+    anchors: warn
+    unrecognized_links: warn
+
 markdown_extensions:
     - toc:
         permalink: true
