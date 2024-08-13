@@ -37,7 +37,7 @@ nav:
       - 1 - Introduction: ''
       - 2 - Setup DWH: ''
 
-use_directory_urls: false
+use_directory_urls: true
 validation:
   links:
     absolute_links: relative_to_docs
