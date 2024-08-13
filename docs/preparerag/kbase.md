@@ -21,11 +21,11 @@ The following diagrams illustrate schematically how RAG is carried out. Knowledg
 To enable effective retrieval from private data, a common practice is to first split the documents into manageable chunks for efficient retrieval. The chunks are then converted to embeddings and written to a vector index, while maintaining a mapping to the original document. These embeddings are used to determine semantic similarity between queries and text from the data sources. The following image illustrates pre-processing of data for the vector database.
 
 
-![Alt](../assets/images/streamprocess/rag-preprocess.png "Preprocessing")
+![Alt](/assets/images/streamprocess/rag-preprocess.png "Preprocessing")
 
 ## Runtime execution
 
 At runtime, an embedding model is used to convert the user's query to a vector. The vector index is then queried to find chunks that are semantically similar to the user's query by comparing document vectors to the user query vector. In the final step, the user prompt is augmented with the additional context from the chunks that are retrieved from the vector index. The prompt alongside the additional context is then sent to the model to generate a response for the user. The following image illustrates how RAG operates at runtime to augment responses to user queries.
 
-![Alt](../assets/images/streamprocess/rag-runtime.png "RAG runtime")
+![Alt](/assets/images/streamprocess/rag-runtime.png "RAG runtime")
 

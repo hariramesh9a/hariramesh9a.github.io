@@ -2,12 +2,6 @@
 
 Customers travel choices can be extremely nuanced as they seek out types of experiences. In this lab, Intelligent Flight planner chatbot supports customer request to modify upcoming flight. 
 
-<!-- ## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit. -->
 
 ## Lab Summary
 
