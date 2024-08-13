@@ -9,22 +9,22 @@
       
       
       
-        <link rel="prev" href="../../cfn_setup/overview/exercise/">
+        <link rel="prev" href="rag.html">
       
       
-        <link rel="next" href="../rag/">
+        <link rel="next" href="../streamprocess/overview.html">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
     
     
       
-        <title>1 - Overview - DataFoundation - Train the Trainer Workshop (L400)</title>
+        <title>3 - Knowledge Base for RAG - DataFoundation - Train the Trainer Workshop (L400)</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
       
       
 
@@ -43,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#data-foundations" class="md-skip">
+        <a href="#preparing-knowledge-base-for-rag" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="DataFoundation - Train the Trainer Workshop (L400)" class="md-header__button md-logo" aria-label="DataFoundation - Train the Trainer Workshop (L400)" data-md-component="logo">
+    <a href="../index.html" title="DataFoundation - Train the Trainer Workshop (L400)" class="md-header__button md-logo" aria-label="DataFoundation - Train the Trainer Workshop (L400)" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1 - Overview
+              3 - Knowledge Base for RAG
             
           </span>
         </div>
@@ -185,7 +185,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="DataFoundation - Train the Trainer Workshop (L400)" class="md-nav__button md-logo" aria-label="DataFoundation - Train the Trainer Workshop (L400)" data-md-component="logo">
+    <a href="../index.html" title="DataFoundation - Train the Trainer Workshop (L400)" class="md-nav__button md-logo" aria-label="DataFoundation - Train the Trainer Workshop (L400)" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -215,7 +215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -235,7 +235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../cfn_setup/overview/exercise/" class="md-nav__link">
+      <a href="../cfn_setup/overview/exercise.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -289,30 +289,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    1 - Overview
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="overview.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -321,35 +301,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#data-foundation-for-genai-high-level-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      Data Foundation for GenAI - High level architecture
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -362,7 +313,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rag/" class="md-nav__link">
+      <a href="rag.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -380,10 +331,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../kbase/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="kbase.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -392,6 +352,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -439,7 +400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -460,7 +421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -481,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -502,7 +463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -566,7 +527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../streamprocess/overview/" class="md-nav__link">
+      <a href="../streamprocess/overview.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -587,7 +548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -608,7 +569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../streamprocess/kds/" class="md-nav__link">
+      <a href="../streamprocess/kds.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -629,7 +590,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../streamprocess/write_data_to_kds/" class="md-nav__link">
+      <a href="../streamprocess/write_data_to_kds.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -650,7 +611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -714,7 +675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../governance/overview/" class="md-nav__link">
+      <a href="../governance/overview.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -785,7 +746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -806,7 +767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -827,7 +788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -890,7 +851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -911,7 +872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -952,23 +913,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#data-foundation-for-genai-high-level-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      Data Foundation for GenAI - High level architecture
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -985,24 +929,25 @@
   
 
 
-<h1 id="data-foundations">Data Foundations<a class="headerlink" href="#data-foundations" title="Permanent link">&para;</a></h1>
-<p><img alt="Alt" src="../../assets/images/streamprocess/df2.png" title="core components" /></p>
-<p>These are the core elements of a modern, robust data foundation.</p>
+<h1 id="preparing-knowledge-base-for-rag">Preparing knowledge base for RAG<a class="headerlink" href="#preparing-knowledge-base-for-rag" title="Permanent link">&para;</a></h1>
+<p>In this section,</p>
+<p>You will follow the steps to set up and use your knowledge base.</p>
 <ul>
-<li>
-<p>For genAI you need to store various types of data including unstructured, structured, streaming, and vector data that can be used for building and fine-tuning models as well as adding context to prompts through RAG. AWS provides the industry’s most comprehensive set of data services for storing and querying any type of data at scale.</p>
-</li>
-<li>
-<p>You’ll also want to make sure that you have ready access to all of your data to leverage for genAI applications. AWS is integrating services our services together and integrating with other data sources so you can break down data silos and get a complete picture of your business or customer. 
- </p>
-</li>
-<li>Finally, Data needs to be secure and governed throughout the lifecycle of building a genAI application. AWS offers several tools to help ensure data quality, privacy, and access controls so the data you use for genAI applications is high-quality and compliant.</li>
+<li>Configure the data sources to add to your knowledge base.</li>
+<li>Upload your data to an Amazon S3 bucket.</li>
+<li>Ingest your data by generating embeddings with a foundation model and storing them in a supported vector store.</li>
+<li>Set up your application or agent to query the knowledge base and return augmented responses.</li>
 </ul>
-<h2 id="data-foundation-for-genai-high-level-architecture">Data Foundation for GenAI - High level architecture<a class="headerlink" href="#data-foundation-for-genai-high-level-architecture" title="Permanent link">&para;</a></h2>
-<p><img alt="Alt" src="../../assets/images/streamprocess/df1.png" title="Data Foundation Architecture" /></p>
-<p>One of the very first things that gen AI introduces to the pipeline is the need for additional data sources. And these are primarily in the form of unstructured data. Now, unstructured data is not a new construct to the data world, however it is now the dominant part of the data feed for a gen AI pipeline. </p>
-<p>Our typical data architecture patterns have largely dealt with structured data, but with more than 80% of the world’s data in unstructured formats, it is now front and center with gen AI, and has a big influence on data ingestion, data integration and data governance. 
-Unstructured data is information that doesn’t conform to a predefined schema or isn’t organized according to a preset data model. Understanding the data, categorizing it, and extracting insights from it can be challenging. Metadata discovery is one of the primary requirements in data analytics.</p>
+<h1 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h1>
+<p>Knowledge base for Amazon Bedrock help you take advantage of Retrieval Augmented Generation (RAG), a popular technique that involves drawing information from a data store to augment the responses generated by Large Language Models (LLMs). When you set up a knowledge base with your data sources, your application can query the knowledge base to return information to answer the query either with direct quotations from sources or with natural responses generated from the query results.</p>
+<p>With knowledge bases, you can build applications that are enriched by the context that is received from querying a knowledge base. It enables a faster time to market by abstracting from the heavy lifting of building pipelines and providing you an out-of-the-box RAG solution to reduce the build time for your application. Adding a knowledge base also increases cost-effectiveness by removing the need to continually train your model to be able to leverage your private data.</p>
+<p>The following diagrams illustrate schematically how RAG is carried out. Knowledge base simplifies the setup and implementation of RAG by automating several steps in this process.</p>
+<h2 id="pre-processing-data">Pre-processing data<a class="headerlink" href="#pre-processing-data" title="Permanent link">&para;</a></h2>
+<p>To enable effective retrieval from private data, a common practice is to first split the documents into manageable chunks for efficient retrieval. The chunks are then converted to embeddings and written to a vector index, while maintaining a mapping to the original document. These embeddings are used to determine semantic similarity between queries and text from the data sources. The following image illustrates pre-processing of data for the vector database.</p>
+<p><img alt="Alt" src="../assets/images/streamprocess/rag-preprocess.png" title="Preprocessing" /></p>
+<h2 id="runtime-execution">Runtime execution<a class="headerlink" href="#runtime-execution" title="Permanent link">&para;</a></h2>
+<p>At runtime, an embedding model is used to convert the user's query to a vector. The vector index is then queried to find chunks that are semantically similar to the user's query by comparing document vectors to the user query vector. In the final step, the user prompt is augmented with the additional context from the chunks that are retrieved from the vector index. The prompt alongside the additional context is then sent to the model to generate a response for the user. The following image illustrates how RAG operates at runtime to augment responses to user queries.</p>
+<p><img alt="Alt" src="../assets/images/streamprocess/rag-runtime.png" title="RAG runtime" /></p>
 
 
 
@@ -1049,10 +994,10 @@ Unstructured data is information that doesn’t conform to a predefined schema 
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["tabs"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
   </body>
